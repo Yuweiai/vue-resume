@@ -1,0 +1,114 @@
+{
+  TCollection: {
+    title: '漆鱼小筑',
+    loading: '罗小二奋笔疾书...',
+    fork: 'Fork me On GitHub',
+  },
+  social: [
+    {
+      name: 'github',
+      url: 'https://github.com/Yuweiai'
+    },
+    {
+      name: 'mail',
+      url: 'yuwei2013521124@gmail.com'
+    },
+  ],
+  copyrights: {
+    desc: '©2022 漆鱼|yuweiai All rights reserved',
+    url: ''
+  },
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页"
+    }
+  },
+  modules: [
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "information",
+        subtitle: "about me"
+      },
+      content: {
+        name: "林舍",
+        desc: [
+          "林中通幽静",
+          "深山藏小舍",
+        ],
+        md: "鄙人林舍，生于河北，纯北方汉子，苦读十二载，后求学于西安~\
+        \n『**厚德、求真、砺学、笃行**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~\
+        \n求学之际偶遇佳人，毕业之后终成正果，小窝一间、少爷一个，平平淡淡、快快乐乐~\
+        \n前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
+        \n工作五六载，两域三城奔波，累哉累哉，自知其中快乐~",
+        md: '他还没想好怎么介绍自己'
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "主页": "https://yuweiqin.com",
+        "邮箱": "yuwei2013521124@gmail.com"
+      },
+    },
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "experience",
+        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "TCL实业控股股份有限公司 - 鸿鹄实验室",
+          subtitle: "2020-09 至今",
+          md: "<!--**<u>前端开发工程师</u>**-->\
+          \n\
+          \n身为一名鸿鹄er，很高兴能在这样的一家公司共同奋斗、发展",
+        },
+        {
+          title: "TCL实业控股股份有限公司 - 鸿鹄实验室",
+          subtitle: "2020-09 至今",
+          md: "<!--**<u>前端开发工程师</u>**-->\
+          \n\
+          \n身为一名鸿鹄er，很高兴能在这样的一家公司共同奋斗、发展",
+        },
+        {
+          title: "TCL实业控股股份有限公司 - 鸿鹄实验室",
+          subtitle: "2020-09 至今",
+          md: "<!--**<u>前端开发工程师</u>**-->\
+          \n\
+          \n身为一名鸿鹄er，很高兴能在这样的一家公司共同奋斗、发展",
+        },
+        {
+          title: "TCL实业控股股份有限公司 - 鸿鹄实验室",
+          subtitle: "2020-09 至今",
+          md: "<!--**<u>前端开发工程师</u>**-->\
+          \n\
+          \n身为一名鸿鹄er，很高兴能在这样的一家公司共同奋斗、发展",
+        },
+      ]
+    },
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+    },
+  ]
+}
